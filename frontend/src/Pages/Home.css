@@ -1,0 +1,67 @@
+.Sidebar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 0.685rem;
+}
+
+.row1 {
+  width: 15%;
+  position: fixed;
+
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  left: 0;
+  height: 90vh;
+  padding-left: 2.5rem;
+  user-select: none;
+  z-index: 2;
+}
+
+.row2 {
+  width: 84%;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 800px) {
+  .row1 {
+    width: 20%;
+    position: fixed;
+
+    background: #74ebd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #acb6e5,
+      #74ebd5
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #acb6e5,
+      #74ebd5
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    left: 0;
+    height: 90vh;
+    padding-left: 0rem;
+    user-select: none;
+    z-index: 2;
+  }
+  .row2 {
+    width: 80%;
+    position: absolute;
+    right: 0;
+  }
+
+}

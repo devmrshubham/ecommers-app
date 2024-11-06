@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cf0e632.css",
+    "main.js": "/static/js/main.ba7e9c0f.js",
+    "static/media/Reset password-cuate.png": "/static/media/Reset password-cuate.58b6232996f72afa1de5.png",
+    "static/media/Login-pana.png": "/static/media/Login-pana.2fda19bdc76f0c43c123.png",
+    "static/media/Forgot password-bro.png": "/static/media/Forgot password-bro.a3d0d1c5c20c90f6830e.png",
+    "static/media/Sign up-pana.png": "/static/media/Sign up-pana.1bb96c4b87241716b249.png",
+    "index.html": "/index.html",
+    "main.7cf0e632.css.map": "/static/css/main.7cf0e632.css.map",
+    "main.ba7e9c0f.js.map": "/static/js/main.ba7e9c0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf0e632.css",
+    "static/js/main.ba7e9c0f.js"
+  ]
+}
